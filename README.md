@@ -11,6 +11,10 @@ npm install
 npm start
 ```
 
+## How it works
+For every message send to it, the server send back `reply:{MSG}` message.
+Additionally, it will log every connect, message and disconnect to the standard output.
+
 ## Android
 Consider using socket.io native support: 
   https://socket.io/blog/native-socket-io-and-android/
